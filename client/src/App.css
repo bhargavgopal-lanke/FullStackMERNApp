@@ -38,3 +38,95 @@
   color: red;
   display: block;
 }
+
+.App a {
+  display: block;
+  text-align: center;
+}
+
+.createpost-page {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.createpost-page label {
+  font-weight: bold;
+  display: inline-block;
+ }
+.createpost-page input {
+  margin-bottom: 15px;
+}
+
+.createpost-page span {
+  color: red;
+  display: block;
+  margin: 0px 0px 10px;
+}
+
+.post-item {
+  margin: 20px auto;
+      width: 500px;
+
+  border: 1px solid black;
+}
+
+.post-item .title {
+  background-color: #87CEEB;
+  padding: 20px;
+  color: #fff;
+}
+
+.post-item .post-text {
+  padding: 20px;
+}
+
+.post-item .username {
+  background-color: #87CEEB;
+  padding: 20px;
+  color: #fff;
+}
+
+.postcreated-page {
+  max-width: 500px;
+  margin: 0px auto;
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.postcreated-page .title , .postcreated-page .footer{
+  background-color: #04537a;
+  padding: 15px;
+  text-align: center;
+}
+
+.postcreated-page .body p{
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.postcreated-page .title h4 , .postcreated-page .footer h4 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.postby_id_box {
+  max-width: 500px;
+  margin: 0px auto; 
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.postby_id_box .title , .postby_id_box .username{
+  background-color: #04537a;
+  padding: 15px;
+  text-align: center;
+}
+
+.postby_id_box .ptitle h4, .postby_id_box .username h4 {
+  color: #fff;
+}
+
+.posttext p {
+  padding: 15px;
+  margin: 0px;
+}
