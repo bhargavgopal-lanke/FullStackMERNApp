@@ -93,11 +93,18 @@
   margin-bottom: 20px;
 }
 
-.postcreated-page .title , .postcreated-page .footer{
+.postcreated-page .title {
   background-color: #04537a;
   padding: 15px;
   text-align: center;
 }
+
+ .postcreated-page .footer{
+  background-color: #04537a;
+  padding: 15px;
+  text-align: left;
+}
+
 
 .postcreated-page .body p{
   padding: 15px;
@@ -116,10 +123,16 @@
   margin-bottom: 20px;
 }
 
-.postby_id_box .title , .postby_id_box .username{
+.postby_id_box .ptitle {
   background-color: #04537a;
   padding: 15px;
   text-align: center;
+}
+
+.postby_id_box .username{
+  background-color: #04537a;
+  padding: 15px;
+  text-align: left;
 }
 
 .postby_id_box .ptitle h4, .postby_id_box .username h4 {
@@ -129,4 +142,11 @@
 .posttext p {
   padding: 15px;
   margin: 0px;
+}
+
+
+.list_of_comments .comment {
+  border: 1px solid #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
 }

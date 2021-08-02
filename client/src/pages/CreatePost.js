@@ -2,7 +2,6 @@ import React from "react";
 import axios from 'axios';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import {useEffect, useState} from 'react';
 import { useHistory } from 'react-router-dom';
 
 function CreatePost() {
@@ -30,6 +29,7 @@ function CreatePost() {
 
 
 	return <div className="createpost-page">
+	
 			<Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
 				<Form className="formContainer">
 				<label>Title: </label>
