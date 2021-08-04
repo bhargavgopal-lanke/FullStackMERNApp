@@ -162,3 +162,7 @@
   border: 2px solid #04579a;
   padding: 15px;
 }
+
+.postcreated-page .post {
+  cursor: pointer;
+}

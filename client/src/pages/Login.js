@@ -1,10 +1,13 @@
 import React, {useState} from 'react';
 import axios from 'axios';
+import { useHistory } from 'react-router-dom';
 
 function Login() {
 
 	const [ username, setUsername ] = useState("");
 	const [password, setPassword] = useState("");
+
+	let History = useHistory();	
 
 	const login = () => {
 		const data = {username: username, password: password};
@@ -15,6 +18,7 @@ function Login() {
 			}
 			else {
 				sessionStorage.setItem("accessToken", response.data);
+				History.push("/home");
 			}
 		});
 	};	
